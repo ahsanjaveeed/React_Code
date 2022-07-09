@@ -4,11 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import UseStateFunc from './useStateFunc';
+import ContextAPI from './ContextApi/contextApi';
+import CounterContext from './ContextApi/counterContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <UseStateFunc />
+   <App />
   </React.StrictMode>
 );
 
