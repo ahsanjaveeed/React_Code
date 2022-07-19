@@ -5,14 +5,15 @@ import ContextAPI from './ContextApi/contextApi';
 import CounterContext from './ContextApi/counterContext';
 import Parent from './Reducer/ParentComponent';
 import { Fetch } from './GetData/fetch';
+import RouterApp from './Router/App';
 
 function App() {
   let countVal = useState(0)
   return (
     <div className="App">
 {/* Get Data */}
-<Fetch></Fetch>
-
+{/* <Fetch></Fetch> */}
+<RouterApp />
 
 {/* Context + Reducer */}
                     {/* <h1>Context API</h1>
